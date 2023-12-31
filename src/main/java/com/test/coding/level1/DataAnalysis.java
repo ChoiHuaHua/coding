@@ -3,6 +3,11 @@ package com.test.coding.level1;
 import java.util.Arrays;
 import java.util.Comparator;
 
+/**
+ * 프로그래머스
+ * [PCCE 기출문제] 10번 / 데이터 분석
+ * https://school.programmers.co.kr/learn/courses/30/lessons/250121
+ * */
 public class DataAnalysis {
     public static void main(String[] args) {
 
