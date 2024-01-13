@@ -31,7 +31,7 @@ public class StackImpl {
                     sb.append((stack.empty() ? 1 : 0)+"\n");
                     break;
                 case "top":
-                    sb.append((stack.empty() ? -1 : stack.get(stack.size() - 1))+"\n");
+                    sb.append((stack.empty() ? -1 : stack.peek())+"\n");
                     break;
                 default:
                     break;
