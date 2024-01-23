@@ -11,7 +11,7 @@ public class Hash1 {
     public static void main(String[] args) {
 
         Hash1 hash1 = new Hash1();
-        hash1.solution(new String[]{"leo", "kiki", "eden" }, new String[]{"eden", "kiki" });
+        String result = hash1.solution(new String[]{"leo", "kiki", "eden" }, new String[]{"eden", "kiki"});
     }
 
     public String solution(String[] participant, String[] completion) {
@@ -19,7 +19,8 @@ public class Hash1 {
 
         HashMap<String, Integer> hashMap = new HashMap<>();
         for (String s : participant) {
-            hashMap.put(s, hashMap.containsKey(s) ? hashMap.get(s) + 1 : 1);
+            //hashMap.put(s, hashMap.containsKey(s) ? hashMap.get(s) + 1 : 1);
+            hashMap.put(s, hashMap.getOrDefault(s,0) + 1);
         }
 
         for (String s : completion) {
