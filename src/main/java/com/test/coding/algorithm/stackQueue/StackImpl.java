@@ -1,4 +1,4 @@
-package com.test.coding.algorithm;
+package com.test.coding.algorithm.stackQueue;
 
 import java.util.Scanner;
 import java.util.Stack;

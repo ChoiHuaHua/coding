@@ -1,7 +1,11 @@
 package com.test.coding.algorithm.stackQueue;
 
 import java.util.*;
-
+/**
+ * 프로그래머스
+ * 알고리즘 > 스택/큐
+ * https://school.programmers.co.kr/learn/courses/30/lessons/42586
+ */
 public class StackQueue2 {
     public static void main(String[] args) {
         StackQueue2 cls = new StackQueue2();

@@ -1,4 +1,4 @@
-package com.test.coding.algorithm;
+package com.test.coding.algorithm.greedy;
 
 import java.util.*;
 /**

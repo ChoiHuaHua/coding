@@ -1,6 +1,5 @@
-package com.test.coding.algorithm;
+package com.test.coding.algorithm.stackQueue;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
